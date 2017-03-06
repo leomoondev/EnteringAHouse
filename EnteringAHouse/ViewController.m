@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Front Door", @"")
+                                                                               style:UIBarButtonItemStylePlain target:self action:@selector(goToRootViewController)];
 }
 
 
@@ -26,4 +29,11 @@
 }
 
 
+-(void)goToRootViewController
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 @end
+
+
