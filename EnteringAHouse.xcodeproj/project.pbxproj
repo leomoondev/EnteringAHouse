@@ -14,6 +14,7 @@
 		DA4C9B4B1E6D128B0023C89E /* EnteringAHouse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA4C9B491E6D128B0023C89E /* EnteringAHouse.xcdatamodeld */; };
 		DA4C9B4D1E6D128B0023C89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4C9B4C1E6D128B0023C89E /* Assets.xcassets */; };
 		DA4C9B501E6D128B0023C89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4C9B4E1E6D128B0023C89E /* LaunchScreen.storyboard */; };
+		DA4C9B591E6D35840023C89E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4C9B581E6D35840023C89E /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		DA4C9B4C1E6D128B0023C89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA4C9B4F1E6D128B0023C89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA4C9B511E6D128B0023C89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4C9B571E6D35840023C89E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DA4C9B581E6D35840023C89E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				DA4C9B401E6D128B0023C89E /* AppDelegate.h */,
 				DA4C9B411E6D128B0023C89E /* AppDelegate.m */,
+				DA4C9B571E6D35840023C89E /* SecondViewController.h */,
+				DA4C9B581E6D35840023C89E /* SecondViewController.m */,
 				DA4C9B431E6D128B0023C89E /* ViewController.h */,
 				DA4C9B441E6D128B0023C89E /* ViewController.m */,
 				DA4C9B461E6D128B0023C89E /* Main.storyboard */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4C9B591E6D35840023C89E /* SecondViewController.m in Sources */,
 				DA4C9B4B1E6D128B0023C89E /* EnteringAHouse.xcdatamodeld in Sources */,
 				DA4C9B451E6D128B0023C89E /* ViewController.m in Sources */,
 				DA4C9B421E6D128B0023C89E /* AppDelegate.m in Sources */,

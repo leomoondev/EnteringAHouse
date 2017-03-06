@@ -17,21 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Front Door", @"")
-                                                                               style:UIBarButtonItemStylePlain target:self action:@selector(goToRootViewController)];
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-
--(void)goToRootViewController
-{
-    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 @end
